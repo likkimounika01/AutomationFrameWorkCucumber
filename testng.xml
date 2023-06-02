@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+
+<listeners>
+
+<listener class-name="com.automation.utilities.CustomListners"></listener>
+
+</listeners>
+
+  <test name="Test Automation">
+      <parameter name="browserName" value="chrome"/>
+      
+      <classes>
+      	<!-- <class name="com.automation.tests.SignupTest">
+      	
+      		<methods>
+      			<include name="verifySignup"></include>
+      		</methods>		
+      	</class>-->
+      	<!--<class name="com.automation.tests.AlertFramesWindows">
+      	<methods>
+      			<include name="verifyAlerts"></include>
+      			<include> name="verifyWindows"></include>
+      			
+      		</methods>		
+      	</class>-->
+      	<class name="com.automation.tests.ScrollingExample">
+      	<methods>
+      			
+      			<include name="verifyJavaScriptClick"></include>
+      			<include name="verifyAttributeValues"></include>
+      			
+      		</methods>		
+      	</class>
+      	<class name="com.automation.tests.MouseActions">
+      	<methods>
+      		<include name="verifyAlerts"></include>
+      			<include name="verifyChoseFile"></include>
+      			
+      		</methods>	
+      	</class>
+      		<class name="com.automation.tests.DataProvider">
+      			<methods>
+      		<include name="dataProvider"></include>
+      			
+      			
+      		</methods>	
+      	</class>
+      </classes>
+  </test> 
+   
+  
+</suite>
+
+
+
+
+
+		

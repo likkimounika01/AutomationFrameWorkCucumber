@@ -1,0 +1,20 @@
+{
+"userName":"test",
+"password":"test"
+},
+
+"TestNgExample": [{
+"firstName":"TestAutomation",
+"lastName":"User"
+},
+{
+"firstName":"TestAutomation",
+"lastName":"User"
+}
+{
+"firstName":"TestAutomation",
+"lastName":"User"}],
+
+{
+"promptTextName:"user"
+}
